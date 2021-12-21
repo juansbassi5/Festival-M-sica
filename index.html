@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock & EDM Festival</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="build/css/app.css">
+
+</head>
+<body>
+    <header  class="header">
+        <div class="contenedor contenido-header">
+            <h1>Rock & EDM Festival</h1>
+            <nav class="navegacion-principal">
+                <a href="#home">Home</a>   
+                <a href="#lineup">Line Up</a>
+                <a href="#galery">Galery</a>
+                <a href="#tickets">Tickets</a>
+            </nav>
+        </div>
+    </header>
+    <div  id="home" class="video">
+        <div class="overlay">
+            <div class="contenedor contenido-video">
+                <h2>Rock & EDM Festival</h2>
+                <p>July 2022, Los Angeles, California.</p>
+            </div>
+        </div> 
+        <video autoplay muted loop>
+                <source src="video/concierto.mp4" type="video/mp4">
+                <source src="video/concierto.ogg" type="video/ogg"> 
+                <source src="video/concierto.webm" type="video/webm">  
+        </video>               
+    </div>
+    <section class="contenedor sobre-festival">
+        <div class="imagen">
+            <img src="img/David-Guetta.jpg" alt="Imagen Vocalista Festival">
+        </div>
+
+
+        <div class="contenido-festival">
+            <h2>Rock & EDM Festival</h2>
+            <p class="fecha">July 2022, Los Angeles, California</p>
+            <p>David Guetta is excited to be in L.A. again. The French man is going to make his 9th participation in this festival and is expected to release a couple of new songs on next July. DJs like Martin Garrix, Robin Schulz and Tiësto will also be here.</p>
+        </div>
+    </section>
+
+    <section id="lineup" class="lineup">
+        <h3>Line Up</h3>
+
+        <p class="dia">Friday, July 22</p>
+        <div class="escenarios-contenedor contenedor">
+            <div class="escenario rock bg-amarillo">
+                <p class="nombre-escenario">Rock</p>
+                <ul class="calendario">
+                    <li>
+                        00:00 | <span>Metallica</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Pearl Jam</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Linkin Park</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Green Day</span>
+                    </li>
+                    <li>
+                        18:00 | <span>Franz Ferdinand</span>
+                    </li>
+                    <li>
+                        17:00 | <span>30 Seconds to Mars</span>
+                    </li>
+                </ul>
+            </div> <!--escenario-rock-->
+
+            <div class="escenario edm bg-verde">
+                <p class="nombre-escenario">EDM</p>
+                <ul class="calendario">
+                    <li>
+                        00:00 | <span>Martin Garrix</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Tïesto</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Oliver Heldens</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Deadmau5</span>
+                    </li>
+                    
+                    <li>
+                        18:00 | <span>Daft Punk</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Axwell Λ Ingrosso</span>
+                    </li>
+                </ul>
+            </div> <!--escenario-EDM-->
+        </div> <!--escenario-contenedor-->
+
+
+        <p class="dia">Saturday, July 23</p>
+        <div class="escenarios-contenedor contenedor">
+            <div class="escenario rock bg-verde">
+                <p class="nombre-escenario">Rock</p>
+                <ul class="calendario">
+                    <li>
+                        00:00 | <span>Red Hot Chili Peppers</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Foals</span>
+                    </li>
+                    <li>
+                        20:00 | <span>The Neighbourhood</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Portugal. The Man</span>
+                    </li>
+                    
+                    <li>
+                        18:00 | <span>Papa Roach</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Arctic Monkeys</span>
+                    </li>
+                </ul>
+            </div> <!--escenario-rock-->
+
+            <div class="escenario edm bg-amarillo">
+                <p class="nombre-escenario">EDM</p>
+                <ul class="calendario">
+                    <li>
+                        00:00 | <span>David Guetta</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Armin Van Buuren</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Robin Schulz</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Years & Years</span>
+                    </li>
+                    
+                    <li>
+                        18:00 | <span>Lost Frequencies</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Don Diablo</span>
+                    </li>
+                </ul>
+            </div> <!--escenario-EDM-->
+        </div> <!--escenario-contenedor-->
+    </section> <!--Section lineup-->
+
+    <section id="galery" class="galeria contenedor">
+        <h3>Galery</h3>
+
+        <ul class="galeria-imagenes"></ul>
+    </section>
+
+    <section id="tickets" class="boletos bg-verde">
+        <h3>Tickets</h3>
+        <div class="contenedor contenedor-boletos">
+            <div class="basico pase">
+                <p class="nombre-pase">1 day pass</p>
+
+                <header class="pase-header">
+                    <p>Includes</p>
+                </header>
+                <div class="pase-body">
+                    <ul>
+                        <li>
+                            Access to Both Scenarios
+                        </li>
+                        <li>
+                            Drink and Food
+                        </li>
+                    </ul>
+                </div>
+
+                <footer class="pase-footer">
+                    <p>$100</p>
+                </footer>
+            </div>
+
+            <div class="premium pase">
+                <p class="nombre-pase">2 day pass</p>
+
+                <header class="pase-header">
+                    <p>Includes</p>
+                </header>
+                <div class="pase-body">
+                    <ul>
+                        <li>
+                            Access to Both Scenarios
+                        </li>
+                        <li>
+                            Drink and Food
+                        </li>
+                        <li>
+                            L.A. Festival T-shirt 
+                        </li>
+                        <li>
+                             VIP Access
+                        </li>
+                    </ul>
+                </div>
+
+                <footer class="pase-footer">
+                    <p>$180</p>
+                </footer>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="site-footer">
+        <p>Rock & EDM Festival | All Rights Reserved</p>
+    </footer>
+    <script src="build/js/app.js"></script>
+</body>
+</html>
